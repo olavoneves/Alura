@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+:root {
+    --white-principal: #FFFFFF;
+    --gray-secundario: #C0C0C0;
+    --blue-botao: #167BF7;
+    --background: #00030C;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--background);
+}
+
+h1 {
+    color: var(--white-principal);
+}
+
+header {
+    background: url(../Imagem-Projeto-Alura/Background.png) no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
