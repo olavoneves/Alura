@@ -138,6 +138,10 @@ h3.lista-item {
     color: var(--white-principal);
 }
 
+ul.rodape_lista {
+    text-align: center;
+}
+
 li.lista_link {
     display: inline;
 }
@@ -160,6 +164,8 @@ footer {
     margin: 20px 50px 50px 50px;
 }
 
-img.logo {
-    text-align: center;
+div.footer > img.logo {
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
 }
